@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #131722;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr repeat(4, 4fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+.div4 { grid-area: 3 / 1 / 4 / 2; }
+.div5 { grid-area: 3 / 2 / 4 / 3; }
+.div6 { grid-area: 4 / 1 / 5 / 2; }
+.div7 { grid-area: 4 / 2 / 5 / 3; }
+.div8 { grid-area: 5 / 1 / 6 / 2; }
+.div9 { grid-area: 5 / 2 / 6 / 3; }
+.div10 { grid-area: 2 / 3 / 4 / 4; }
+.div11 { grid-area: 2 / 4 / 4 / 5; }
+.div12 { grid-area: 4 / 3 / 6 / 5; }
+</style>
+</head>
+<body>
+
+<div class="parent">
+<div class="div1"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"> </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+  {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    },
+    {
+      "description": "Tesla",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "Apple",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "Google",
+      "proName": "NASDAQ:GOOGL"
+    },
+    {
+      "description": "Amazon",
+      "proName": "NASDAQ:AMZN"
+    },
+    {
+      "description": "Palantir",
+      "proName": "NYSE:PLTR"
+    },
+    {
+      "description": "Virgin Galactic ",
+      "proName": "NYSE:SPCE"
+    },
+    {
+      "description": "Nio",
+      "proName": "NYSE:NIO"
+    },
+    {
+      "description": "Xiaopeng ",
+      "proName": "NYSE:XPEV"
+    },
+    {
+      "description": "Etsy",
+      "proName": "NASDAQ:ETSY"
+    },
+    {
+      "description": "AMD",
+      "proName": "NASDAQ:AMD"
+    },
+    {
+      "description": "Adobe",
+      "proName": "NASDAQ:ADBE"
+    },
+    {
+      "description": "Alibaba",
+      "proName": "NYSE:BABA"
+    },
+    {
+      "description": "Cloudflare",
+      "proName": "NYSE:NET"
+    },
+    {
+      "description": "Crocs",
+      "proName": "NASDAQ:CROX"
+    },
+    {
+      "description": "Nvidia",
+      "proName": "NASDAQ:NVDA"
+    },
+    {
+      "description": "Peloton",
+      "proName": "NASDAQ:PTON"
+    },
+    {
+      "description": "Netflix",
+      "proName": "NASDAQ:NFLX"
+    },
+    {
+      "description": "Facebook",
+      "proName": "NASDAQ:FB"
+    },
+    {
+      "description": "Zoom",
+      "proName": "NASDAQ:ZM"
+    },
+    {
+      "description": "Snapchat",
+      "proName": "NYSE:SNAP"
+    },
+    {
+      "description": "Nike",
+      "proName": "NYSE:NKE"
+    },
+    {
+      "description": "Spotify",
+      "proName": "NYSE:SPOT"
+    },
+    {
+      "description": "Microsoft",
+      "proName": "NASDAQ:MSFT"
+    },
+    {
+      "description": "Intel",
+      "proName": "NASDAQ:INTC"
+    }
+    
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div2"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NASDAQ:BNGO",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div3"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NYSE:CCIV",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div4"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NYSE:GME",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div5"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NYSE:BB",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div6"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NASDAQ:TSLA",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div7"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NASDAQ:ETSY",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div8"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NYSE:AMC",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div9"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "NYSE:NOK",
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "trendLineColor": "#37a6ef",
+  "underLineColor": "rgba(55, 166, 239, 0.15)",
+  "isTransparent": false,
+  "autosize": true,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div10"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "1D",
+  "exchange": "US",
+  "showChart": true,
+  "locale": "en",
+  "width": "100%",
+  "height": "100%",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": false,
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div11"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "3M",
+  "showChart": true,
+  "locale": "en",
+  "width": "100%",
+  "height": "100%",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "FOREXCOM:SPXUSD",
+          "d": "S&P 500"
+        },
+        {
+          "s": "FOREXCOM:NSXUSD",
+          "d": "Nasdaq 100"
+        },
+        {
+          "s": "FOREXCOM:DJI",
+          "d": "Dow 30"
+        },
+        {
+          "s": "INDEX:NKY",
+          "d": "Nikkei 225"
+        },
+        {
+          "s": "INDEX:DEU30",
+          "d": "DAX Index"
+        },
+        {
+          "s": "FOREXCOM:UKXGBP",
+          "d": "FTSE 100"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Commodities",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!",
+          "d": "S&P 500"
+        },
+        {
+          "s": "CME:6E1!",
+          "d": "Euro"
+        },
+        {
+          "s": "COMEX:GC1!",
+          "d": "Gold"
+        },
+        {
+          "s": "NYMEX:CL1!",
+          "d": "Crude Oil"
+        },
+        {
+          "s": "NYMEX:NG1!",
+          "d": "Natural Gas"
+        },
+        {
+          "s": "CBOT:ZC1!",
+          "d": "Corn"
+        }
+      ],
+      "originalTitle": "Commodities"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CME:GE1!",
+          "d": "Eurodollar"
+        },
+        {
+          "s": "CBOT:ZB1!",
+          "d": "T-Bond"
+        },
+        {
+          "s": "CBOT:UB1!",
+          "d": "Ultra T-Bond"
+        },
+        {
+          "s": "EUREX:FGBL1!",
+          "d": "Euro Bund"
+        },
+        {
+          "s": "EUREX:FBTP1!",
+          "d": "Euro BTP"
+        },
+        {
+          "s": "EUREX:FGBM1!",
+          "d": "Euro BOBL"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD"
+        },
+        {
+          "s": "FX:GBPUSD"
+        },
+        {
+          "s": "FX:USDJPY"
+        },
+        {
+          "s": "FX:USDCHF"
+        },
+        {
+          "s": "FX:AUDUSD"
+        },
+        {
+          "s": "FX:USDCAD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div class="div12"><!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_d48e1"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": "100%",
+  "height": "100%",
+  "symbol": "NASDAQ:BNGO",
+  "interval": "D",
+  "timezone": "Europe/Copenhagen",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "show_popup_button": true,
+  "popup_width": "2000",
+  "popup_height": "1300",
+  "container_id": "tradingview_d48e1"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+</div>
+</body>
+</html>
